@@ -35,6 +35,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'https://zappp-dashboards.vercel.app',
+    'https://zappp-evaluation.vercel.app',
 ]
 
 ROOT_URLCONF = 'zappp_backend.urls'
