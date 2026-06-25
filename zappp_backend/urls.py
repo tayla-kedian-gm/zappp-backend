@@ -6,4 +6,5 @@ urlpatterns = [
     path('api/ev-5min', views.ev_5min),
     path('api/journeys', views.journeys),
     path('api/journey-route', views.journey_route),
+    path('api/manifest', views.manifest),
 ]
